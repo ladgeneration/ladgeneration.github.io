@@ -1,1 +1,4 @@
+# Site wide configuration
+title:            Conception participative de tableaux de bord d’apprentissage
+locale:           fr_FR
 theme: jekyll-theme-cayman
