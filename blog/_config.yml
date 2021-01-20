@@ -1,0 +1,4 @@
+# Site wide configuration
+title:            PADLAD
+locale:           fr_FR
+theme: jekyll-theme-slate
