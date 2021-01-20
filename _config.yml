@@ -4,6 +4,7 @@ locale:           fr_FR
 theme: jekyll-theme-slate
 
 nav_pages:
+  - blog/index.md
   - index.html
   - talks.md
   - about.md
