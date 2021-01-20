@@ -2,7 +2,7 @@
 title: About
 description: Madjid Sadallah.
 layout: about
-permalink: /about/
+permalink: /
 published: true
 id: /about
 icons: true
