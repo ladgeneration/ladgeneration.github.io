@@ -2,3 +2,13 @@
 title:            Conception participative de tableaux de bord d’apprentissage
 locale:           fr_FR
 theme: jekyll-theme-slate
+
+nav_pages:
+  - index.html
+  - talks.md
+  - about.md
+  - contact.md
+
+footer_pages:
+  - books-for-geeks.html
+  - fine-print.md
