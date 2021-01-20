@@ -1,13 +1,6 @@
 ---
 title: About
 description: Madjid Sadallah.
-layout: about
-permalink: /
-published: true
-id: /about
-icons: true
-seo:
-  type: person
 ---
 
 # Conception participative de tableaux de bord d’apprentissage
