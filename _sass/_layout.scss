@@ -5,7 +5,13 @@ body {
 	font-size: 1.1em;
 	line-height: 1.6;
 	-webkit-font-smoothing: antialiased;
+	
+	max-width: $content-width; 
+	margin: 0 auto !important; 
+	float: none !important; 
+	
 }
+
 h1,
 h2,
 h3 {
@@ -41,16 +47,29 @@ header {
 	padding: 0px 10px;
 	text-align: center;
 	margin: 50px 0 0;
-	height: 40vh;
+	/*height: 40vh;*/
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
+header h1{
+	font-size: 35px;
+    color: #fff;
+    font-weight: 700;
+    letter-spacing: .2px;
+}
+header h3{
+	font-size: 25px;
+	color: rgb(194, 187, 187);
+	padding-left: 10px;
+	border-left: 2px solid rgb(240, 235, 235);
+}
+
 main {
-	padding: 0 15px;
+	padding: 5px;
 	max-width: $content-width;
-	margin: 0 auto;
+	margin: 0;
 }
 time {
 	color: #898989;
@@ -70,7 +89,7 @@ aside {
 	width: 100%;
 	z-index: 2;
 	border-bottom: 1px solid lighten($light, 30%);
-	box-shadow: 0px 1px 1px RGBA(4, 25, 54, .1);
+	box-shadow: 0px 0px 10px rgba(0,0,0,.8);
 	nav {
 		float: left;
 		max-width: 800px;
@@ -90,6 +109,7 @@ aside {
 					line-height: 20px;
 					margin-bottom: -1px;
 					box-shadow: 0;
+					transition: 0.3s;
 					&:hover,
 					&:active {
 						background: $header;
