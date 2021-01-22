@@ -107,14 +107,14 @@ aside {
 					padding: 15px;
 					font-family: 'Muli', sans-serif;
 					line-height: 20px;
-					margin-bottom: -1px;
-					box-shadow: 0;
-					transition: 0.3s;
+					margin-bottom: -1px;					
+					box-shadow: 0;					
 					&:hover,
 					&:active {
 						background: $header;
 						text-decoration: none;
-						color: $aside-link-hover-color;
+						color: white;
+						transition: 0.2s;
 					}
 				}
 			}
