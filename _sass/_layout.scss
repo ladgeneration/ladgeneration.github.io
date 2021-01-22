@@ -114,7 +114,7 @@ aside {
 					&:active {
 						background: $header;
 						text-decoration: none;
-						color: $main;
+						color: $aside-link-hover-color;
 					}
 				}
 			}
