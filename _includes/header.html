@@ -2,11 +2,13 @@
 	<div class="container">
 		<nav>
 			<ul>
+				<li><a href="google.com">Google</a></li>	
 				{% for page in site.pages %} {% if page.title %}
 				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 				{% endif %} {% endfor %}
 		<!--		<li><a href="{{ "/news" | prepend: site.baseurl }}">Actualité</a></li>-->
-			</ul>
+		
+	</ul>
 			</li>
 			</ul>
 		</nav>
